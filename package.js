@@ -1,8 +1,8 @@
 Package.describe({
-	name: "bshamblen:autoform-ace",
-	summary: "Ace editor for autoform.",
-	git: "https://github.com/bshamblen/autoform-ace.git",
-	version: "0.0.1"
+	name: 'bshamblen:autoform-ace',
+	summary: 'Ace editor for autoform.',
+	git: 'https://github.com/bshamblen/autoform-ace.git',
+	version: '0.0.1'
 });
 
 Package.onUse(function(api) {
