@@ -7,8 +7,10 @@ Package.describe({
 
 Package.onUse(function(api) {
 	api.versionsFrom('METEOR@1.0');
-	api.use('aldeed:autoform@5.8.1', 'client', {weak: true});
-	api.use('arch:ace-editor@1.2.1', 'client', {weak: true});
+	api.use('templating@1.0.0');
+	api.use('blaze@2.0.0');
+	api.use('aldeed:autoform@4.0.0 || 5.0.0');
+	api.use('arch:ace-editor@1.2.1', 'client');
 	api.addFiles('autoform-ace.html', 'client');
 	api.addFiles('autoform-ace.js', 'client');
 });
